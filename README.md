@@ -174,8 +174,8 @@ To use real Binance Testnet:
 ## UI Preview
 
 ```
-![UI 1](assets/ui1.png)
-![UI 2](assets/ui2.png)
+![output look](ui1.png)
+![output look](ui2.png)
 ```
 
 ---

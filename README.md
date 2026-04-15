@@ -2,18 +2,18 @@
 
 ## Overview
 
-This project is a Python-based trading bot that interacts with Binance Futures Testnet. It allows users to place MARKET, LIMIT, and STOP-LIMIT orders via a Command Line Interface (CLI) and a Streamlit-based web UI.
+This project is a Python-based trading bot that interacts with Binance Futures Testnet. It allows users to place MARKET, LIMIT and STOP-LIMIT orders via a Command Line Interface (CLI) and a Streamlit-based web UI.
 
 ---
 
 ## Features
 
-- Place MARKET, LIMIT, and STOP-LIMIT orders
+- Place MARKET, LIMIT and STOP-LIMIT orders
 - Supports both BUY and SELL operations
 - CLI-based interaction using argparse
 - Streamlit-based UI for better user experience
 - Input validation and error handling
-- Logging of API requests, responses, and errors
+- Logging of API requests, responses and errors
 - Mock mode support for testing without API access
 
 ---
@@ -57,7 +57,7 @@ trading_bot/
 ### 1. Clone Repository
 
 ```
-git clone <your-repo-link>
+git clone https://github.com/satwika-akula06/Trading-Bot-on-Binance-Futures-Testnet.git
 cd trading_bot
 ```
 
@@ -84,7 +84,9 @@ source venv/bin/activate
 ### 3. Install Dependencies
 
 ```
+pip install python-binance python-dotenv
 pip install -r requirements.txt
+pip install streamlit
 ```
 
 ---
@@ -172,8 +174,8 @@ To use real Binance Testnet:
 ## UI Preview
 
 ```
-![output look](ui1.png)
-![output look](ui2.png)
+![UI 1](assets/ui1.png)
+![UI 2](assets/ui2.png)
 ```
 
 ---

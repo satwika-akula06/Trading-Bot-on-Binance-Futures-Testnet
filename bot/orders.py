@@ -21,14 +21,14 @@ def place_order(symbol, side, order_type, quantity, price=None, stop_price=None)
     try:
         logging.info(f"Request: {symbol} {side} {order_type}")
 
-        # ✅ MOCK MODE
+        #  MOCK MODE
         if USE_MOCK:
             order = mock_order(symbol, side, order_type, quantity, price)
             order["stopPrice"] = stop_price
             logging.info(f"Mock Response: {order}")
             return order
 
-        # ✅ REAL MODE
+        #  REAL MODE
         if order_type == "MARKET":
             order = client.futures_create_order(
                 symbol=symbol,

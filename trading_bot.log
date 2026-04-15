@@ -1,0 +1,22 @@
+2026-04-15 11:05:48,024 - INFO - Request: BTCUSDT BUY MARKET
+2026-04-15 11:05:48,024 - INFO - Mock Response: {'orderId': 872687, 'status': 'FILLED', 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'executedQty': 0.01, 'avgPrice': 'market_price', 'time': 1776231348}
+2026-04-15 11:05:59,766 - INFO - Request: BTCUSDT SELL LIMIT
+2026-04-15 11:05:59,766 - INFO - Mock Response: {'orderId': 983006, 'status': 'FILLED', 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'executedQty': 0.01, 'avgPrice': 70000.0, 'time': 1776231359}
+2026-04-15 11:12:40,356 - INFO - Request: BTCUSDT BUY MARKET
+2026-04-15 11:12:40,356 - INFO - Mock Response: {'orderId': 293834, 'status': 'FILLED', 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'executedQty': 0.01, 'avgPrice': 'market_price', 'time': 1776231760}
+2026-04-15 11:12:54,949 - INFO - Request: BTCUSDT SELL LIMIT
+2026-04-15 11:12:54,949 - INFO - Mock Response: {'orderId': 589658, 'status': 'FILLED', 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'executedQty': 0.01, 'avgPrice': 70000.0, 'time': 1776231774}
+2026-04-15 11:17:40,363 - INFO - Request: ETHUSDT BUY MARKET
+2026-04-15 11:17:40,363 - INFO - Mock Response: {'orderId': 565331, 'status': 'FILLED', 'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'executedQty': 0.05, 'avgPrice': 'market_price', 'time': 1776232060}
+2026-04-15 11:18:11,609 - INFO - Request: SOLUSDT SELL LIMIT
+2026-04-15 11:18:11,609 - INFO - Mock Response: {'orderId': 605065, 'status': 'FILLED', 'symbol': 'SOLUSDT', 'side': 'SELL', 'type': 'LIMIT', 'executedQty': 1.0, 'avgPrice': 150.0, 'time': 1776232091}
+2026-04-15 11:32:46,255 - INFO - Request: BTCUSDT SELL STOP_LIMIT
+2026-04-15 11:32:46,255 - INFO - Mock Response: {'orderId': 740722, 'status': 'FILLED', 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_LIMIT', 'executedQty': 0.01, 'avgPrice': 58000.0, 'time': 1776232966, 'stopPrice': 59000.0}
+2026-04-15 11:44:22,657 - INFO - Request: ETHUSDT SELL LIMIT
+2026-04-15 11:44:22,657 - INFO - Mock Response: {'orderId': 454224, 'status': 'FILLED', 'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'executedQty': 0.02, 'avgPrice': 0.05, 'time': 1776233662, 'stopPrice': None}
+2026-04-15 11:48:41,653 - INFO - Request: BNBUSDT BUY MARKET
+2026-04-15 11:48:41,654 - INFO - Mock Response: {'orderId': 408604, 'status': 'FILLED', 'symbol': 'BNBUSDT', 'side': 'BUY', 'type': 'MARKET', 'executedQty': 0.02, 'avgPrice': 'market_price', 'time': 1776233921, 'stopPrice': None}
+2026-04-15 11:55:39,205 - INFO - Request: BTCUSDT BUY MARKET
+2026-04-15 11:55:39,210 - INFO - Mock Response: {'orderId': 377331, 'status': 'FILLED', 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'executedQty': 0.01, 'avgPrice': 'market_price', 'time': 1776234339, 'stopPrice': None}
+2026-04-15 12:00:20,347 - INFO - Request: BTCUSDT BUY LIMIT
+2026-04-15 12:00:20,347 - INFO - Mock Response: {'orderId': 101660, 'status': 'FILLED', 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'executedQty': 0.01, 'avgPrice': 0.06, 'time': 1776234620, 'stopPrice': None}
